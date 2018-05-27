@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dolfin xmlns:dolfin="http://fenicsproject.org">
-  <mesh_function type="uint" dim="2" size="3867">
+  <mesh_function type="uint" dim="2" size="3799">
     <entity index="0" value="211"/>
     <entity index="1" value="211"/>
     <entity index="2" value="211"/>
@@ -3800,73 +3800,5 @@
     <entity index="3796" value="211"/>
     <entity index="3797" value="211"/>
     <entity index="3798" value="211"/>
-    <entity index="3799" value="211"/>
-    <entity index="3800" value="211"/>
-    <entity index="3801" value="211"/>
-    <entity index="3802" value="211"/>
-    <entity index="3803" value="211"/>
-    <entity index="3804" value="211"/>
-    <entity index="3805" value="211"/>
-    <entity index="3806" value="211"/>
-    <entity index="3807" value="211"/>
-    <entity index="3808" value="211"/>
-    <entity index="3809" value="211"/>
-    <entity index="3810" value="211"/>
-    <entity index="3811" value="211"/>
-    <entity index="3812" value="211"/>
-    <entity index="3813" value="211"/>
-    <entity index="3814" value="211"/>
-    <entity index="3815" value="211"/>
-    <entity index="3816" value="211"/>
-    <entity index="3817" value="211"/>
-    <entity index="3818" value="211"/>
-    <entity index="3819" value="211"/>
-    <entity index="3820" value="211"/>
-    <entity index="3821" value="211"/>
-    <entity index="3822" value="211"/>
-    <entity index="3823" value="211"/>
-    <entity index="3824" value="211"/>
-    <entity index="3825" value="211"/>
-    <entity index="3826" value="211"/>
-    <entity index="3827" value="211"/>
-    <entity index="3828" value="211"/>
-    <entity index="3829" value="211"/>
-    <entity index="3830" value="211"/>
-    <entity index="3831" value="211"/>
-    <entity index="3832" value="211"/>
-    <entity index="3833" value="211"/>
-    <entity index="3834" value="211"/>
-    <entity index="3835" value="211"/>
-    <entity index="3836" value="211"/>
-    <entity index="3837" value="211"/>
-    <entity index="3838" value="211"/>
-    <entity index="3839" value="211"/>
-    <entity index="3840" value="211"/>
-    <entity index="3841" value="211"/>
-    <entity index="3842" value="211"/>
-    <entity index="3843" value="211"/>
-    <entity index="3844" value="211"/>
-    <entity index="3845" value="211"/>
-    <entity index="3846" value="211"/>
-    <entity index="3847" value="211"/>
-    <entity index="3848" value="211"/>
-    <entity index="3849" value="211"/>
-    <entity index="3850" value="211"/>
-    <entity index="3851" value="211"/>
-    <entity index="3852" value="211"/>
-    <entity index="3853" value="211"/>
-    <entity index="3854" value="211"/>
-    <entity index="3855" value="211"/>
-    <entity index="3856" value="211"/>
-    <entity index="3857" value="211"/>
-    <entity index="3858" value="211"/>
-    <entity index="3859" value="211"/>
-    <entity index="3860" value="211"/>
-    <entity index="3861" value="211"/>
-    <entity index="3862" value="211"/>
-    <entity index="3863" value="211"/>
-    <entity index="3864" value="211"/>
-    <entity index="3865" value="211"/>
-    <entity index="3866" value="211"/>
   </mesh_function>
 </dolfin>

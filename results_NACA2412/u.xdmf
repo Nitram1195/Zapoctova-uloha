@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Time TimeType="List">
+        <DataItem Format="XML" Dimensions="11"> 0 1 2 3 4 5 6 7 8 9 10</DataItem>
+      </Time>
+      <Grid Name="grid_1" GridType="Uniform">
+        <Topology NumberOfElements="3649" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3649 3">u.h5:/Mesh/0/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="1954 2">u.h5:/Mesh/0/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="1954 3">u.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_2" GridType="Uniform">
+        <Topology NumberOfElements="3603" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3603 3">u.h5:/Mesh/1/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="1931 2">u.h5:/Mesh/1/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="1931 3">u.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_3" GridType="Uniform">
+        <Topology NumberOfElements="3659" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3659 3">u.h5:/Mesh/2/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="1959 2">u.h5:/Mesh/2/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="1959 3">u.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_4" GridType="Uniform">
+        <Topology NumberOfElements="3971" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3971 3">u.h5:/Mesh/3/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2115 2">u.h5:/Mesh/3/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2115 3">u.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_5" GridType="Uniform">
+        <Topology NumberOfElements="3933" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3933 3">u.h5:/Mesh/4/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2096 2">u.h5:/Mesh/4/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2096 3">u.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_6" GridType="Uniform">
+        <Topology NumberOfElements="3923" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3923 3">u.h5:/Mesh/5/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2091 2">u.h5:/Mesh/5/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2091 3">u.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_7" GridType="Uniform">
+        <Topology NumberOfElements="3857" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3857 3">u.h5:/Mesh/6/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2058 2">u.h5:/Mesh/6/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2058 3">u.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_8" GridType="Uniform">
+        <Topology NumberOfElements="3809" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3809 3">u.h5:/Mesh/7/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2034 2">u.h5:/Mesh/7/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2034 3">u.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_9" GridType="Uniform">
+        <Topology NumberOfElements="3799" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3799 3">u.h5:/Mesh/8/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2029 2">u.h5:/Mesh/8/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2029 3">u.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_10" GridType="Uniform">
+        <Topology NumberOfElements="3821" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3821 3">u.h5:/Mesh/9/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2040 2">u.h5:/Mesh/9/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2040 3">u.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="grid_11" GridType="Uniform">
+        <Topology NumberOfElements="3799" TopologyType="Triangle">
+          <DataItem Format="HDF" Dimensions="3799 3">u.h5:/Mesh/10/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Format="HDF" Dimensions="2029 2">u.h5:/Mesh/10/coordinates</DataItem>
+        </Geometry>
+        <Attribute Name="u" AttributeType="Vector" Center="Node">
+          <DataItem Format="HDF" Dimensions="2029 3">u.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
